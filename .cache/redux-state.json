@@ -1,0 +1,2722 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/app/my-react-app/www/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/app/my-react-app/www/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3a48f9fa2d6004a616d76165b3c17b1f",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b3a042c3b82ca02ef671c86b9efa6ec1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1c261dc62d9f2365670b20b40be4e2f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e9e7f33a72993f5b75eab1d1c462298f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "715ec980d7e2c5af6a7928925664c0f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "604a640d7bb18305c8486e656e7a033d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b2b2e91afd64bc1c1617bdee2db80f7a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5a945c735f8c007f4ea56b64e67a0335",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "Source Sans Pro:300,400,700"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bdfae12c7b85304601a18801f37a4a41",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/app/my-react-app/www/../content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b7a5bb58cda10fc38c42058cd0129a1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 690,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.20",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.24",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.37",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-autolink-headers",
+            "id": "Plugin gatsby-remark-autolink-headers",
+            "name": "gatsby-remark-autolink-headers",
+            "version": "1.4.19",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onClientEntry",
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [
+              "onRenderBody"
+            ],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-autolink-headers"
+          },
+          {
+            "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-custom-blocks",
+            "id": "Plugin gatsby-remark-custom-blocks",
+            "name": "gatsby-remark-custom-blocks",
+            "version": "1.0.5",
+            "pluginOptions": {
+              "plugins": [],
+              "blocks": {
+                "info": "custom-block-info",
+                "notice": "custom-block-notice"
+              }
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-custom-blocks"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b314856bf78414e1428400d6f98fecc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 690,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95e582632916f1b2cee7d5cd22a3cb44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.20",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a9241ea338cdcc3b99ecc27b131a1d45",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.12.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "12589f2a23a3c032c721551dba28291d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.37",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.37",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3060d8d84d6226459981e7561dcaa06b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-autolink-headers": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-autolink-headers",
+      "id": "Plugin gatsby-remark-autolink-headers",
+      "name": "gatsby-remark-autolink-headers",
+      "version": "1.4.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry",
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-autolink-headers",
+      "packageJson": {
+        "name": "gatsby-remark-autolink-headers",
+        "description": "Gatsby plugin to autolink headers in markdown processed by Remark",
+        "version": "1.4.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "github-slugger",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "eccd0e975fb29ea2260ea7f5d023d4bc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-custom-blocks": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-remark-custom-blocks",
+      "id": "Plugin gatsby-remark-custom-blocks",
+      "name": "gatsby-remark-custom-blocks",
+      "version": "1.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "blocks": {
+          "info": "custom-block-info",
+          "notice": "custom-block-notice"
+        }
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-remark-custom-blocks",
+      "packageJson": {
+        "name": "gatsby-remark-custom-blocks",
+        "description": "Gatsby remark plugin for adding custom blocks in markdown",
+        "version": "1.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Mohammad Asad Mohammad <m91.alahmadi@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "remark-custom-blocks",
+            "version": "^1.0.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "rimraf",
+            "version": "^2.6.2"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ddebc46bba5f480aa7c6f1e6bb48250a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-FIX-ME-XXXXX"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c88256edd8409af2fe7b2b08e72c6562",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "40a0ea405d63bb2a79695f6707e0db59",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "503fc7b712eacd7b099eb5bfe6b7209b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6a917de56d466a5482c130bd8193a895",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6b31dba3a58cb2418830211804bccca8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "dazzling",
+        "short_name": "dazzling",
+        "description": "dazzling - The scalable wood that bends and holds strong.",
+        "start_url": "/",
+        "background_color": "#fff",
+        "theme_color": "#F722B1",
+        "display": "minimal-ui",
+        "icons": [
+          {
+            "src": "/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "1.0.27",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7912343500b3277ed58f01dfdf6e8402",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9c96ba3dbf2f7120305bdec913d6c326",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-postcss-sass": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-postcss-sass",
+      "id": "Plugin gatsby-plugin-postcss-sass",
+      "name": "gatsby-plugin-postcss-sass",
+      "version": "1.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-postcss-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss-sass",
+        "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
+        "version": "1.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss",
+          "sass",
+          "scss"
+        ],
+        "author": "Scotty Eckenthal <scotty@meetfabric.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6a40f3d0537a760179516b37974c3b33",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/app/my-react-app/www",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "9bfeb4ccdedd1cbbbd2a099168fc0a59",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www",
+      "packageJson": {
+        "name": "dazzling-docs",
+        "version": "1.0.6",
+        "dependencies": [
+          {
+            "name": "babel-plugin-lodash",
+            "version": "^3.2.11"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-plugin-transform-decorators-legacy",
+            "version": "^1.3.5"
+          },
+          {
+            "name": "dazzling-components",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.178"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.36"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^1.3.4"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.3"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.1"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-twitter",
+            "version": "^1.0.6"
+          },
+          {
+            "name": "gatsby-remark-autolink-headers",
+            "version": "^1.4.3"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby-remark-custom-blocks",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.3"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.2"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.4.2"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.30"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "lodash-webpack-plugin",
+            "version": "^0.11.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-disqus-comments",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-twitter-widgets",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.1.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bcb3f11c153f4f404c2ee8cb0bcd4d6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/app/my-react-app/www/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/app/my-react-app/www/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/app/my-react-app/www/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da363acd0a6ee57ffd37cdd8fcde1276",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "bq1028.github.io/generated-dazzling"
+      },
+      "port": "4002",
+      "host": "0.0.0.0",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-09-09T13:39:36.300Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d40fce128533d796c87cfbac24294c8e",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/app/my-react-app/www/../content absPath of file": {
+      "id": "/app/my-react-app/www/../content absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e3f6cd9320c5e560f3888ad83564539d",
+        "type": "Directory",
+        "description": "Directory \"../content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/www/../content",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-09-09T13:26:21.000Z",
+      "accessTime": "2018-09-09T13:38:04.945Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/www/..",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 57,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 30525367,
+      "blocks": 8,
+      "atimeMs": 1536500284945.1863,
+      "mtimeMs": 1536499581000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:38:04.945Z",
+      "mtime": "2018-09-09T13:26:21.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs absPath of file": {
+      "id": "/app/my-react-app/content/docs absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b71ba58278bea62d2bd8e65aac6713e0",
+        "type": "Directory",
+        "description": "Directory \"../content/docs\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs",
+      "relativePath": "docs",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-09-09T13:26:51.000Z",
+      "accessTime": "2018-09-09T13:38:04.945Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content",
+      "base": "docs",
+      "ext": "",
+      "name": "docs",
+      "relativeDirectory": "",
+      "dev": 57,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 30525368,
+      "blocks": 8,
+      "atimeMs": 1536500284945.1863,
+      "mtimeMs": 1536499611000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:38:04.945Z",
+      "mtime": "2018-09-09T13:26:51.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/images absPath of file": {
+      "id": "/app/my-react-app/content/docs/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "190411c45d1392739fd7672aa516085a",
+        "type": "Directory",
+        "description": "Directory \"../content/docs/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/images",
+      "relativePath": "docs/images",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-09-09T13:26:51.000Z",
+      "accessTime": "2018-09-09T13:38:04.945Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "docs",
+      "dev": 57,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 30525374,
+      "blocks": 8,
+      "atimeMs": 1536500284945.1863,
+      "mtimeMs": 1536499611000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:38:04.945Z",
+      "mtime": "2018-09-09T13:26:51.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/configuration.md absPath of file": {
+      "id": "/app/my-react-app/content/docs/configuration.md absPath of file",
+      "children": [
+        "/app/my-react-app/content/docs/configuration.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0a983725cedd04fc83428ace0d8f4d3d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"../content/docs/configuration.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/configuration.md",
+      "relativePath": "docs/configuration.md",
+      "extension": "md",
+      "size": 2390,
+      "prettySize": "2.39 kB",
+      "modifiedTime": "2018-08-17T13:04:15.000Z",
+      "accessTime": "2018-09-09T13:31:42.723Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "configuration.md",
+      "ext": ".md",
+      "name": "configuration",
+      "relativeDirectory": "docs",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179256,
+      "blocks": 8,
+      "atimeMs": 1536499902723.2205,
+      "mtimeMs": 1534511055000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:31:42.723Z",
+      "mtime": "2018-08-17T13:04:15.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/docs.md absPath of file": {
+      "id": "/app/my-react-app/content/docs/docs.md absPath of file",
+      "children": [
+        "/app/my-react-app/content/docs/docs.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fcc861b1e6d684ea6fdfd354c81fbffc",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"../content/docs/docs.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/docs.md",
+      "relativePath": "docs/docs.md",
+      "extension": "md",
+      "size": 2014,
+      "prettySize": "2.01 kB",
+      "modifiedTime": "2018-07-21T11:30:31.000Z",
+      "accessTime": "2018-09-09T13:31:42.723Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "docs.md",
+      "ext": ".md",
+      "name": "docs",
+      "relativeDirectory": "docs",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179255,
+      "blocks": 8,
+      "atimeMs": 1536499902723.2205,
+      "mtimeMs": 1532172631000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:31:42.723Z",
+      "mtime": "2018-07-21T11:30:31.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/introduction.md absPath of file": {
+      "id": "/app/my-react-app/content/docs/introduction.md absPath of file",
+      "children": [
+        "/app/my-react-app/content/docs/introduction.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "53c1af461da81e6cb7cd8965c23fb86e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"../content/docs/introduction.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/introduction.md",
+      "relativePath": "docs/introduction.md",
+      "extension": "md",
+      "size": 1521,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-07-21T11:30:31.000Z",
+      "accessTime": "2018-09-09T13:31:42.723Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "introduction.md",
+      "ext": ".md",
+      "name": "introduction",
+      "relativeDirectory": "docs",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179253,
+      "blocks": 8,
+      "atimeMs": 1536499902723.2205,
+      "mtimeMs": 1532172631000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:31:42.723Z",
+      "mtime": "2018-07-21T11:30:31.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/react.md absPath of file": {
+      "id": "/app/my-react-app/content/docs/react.md absPath of file",
+      "children": [
+        "/app/my-react-app/content/docs/react.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ce8e685cc4b942799cca7ebb6db85bc",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"../content/docs/react.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/react.md",
+      "relativePath": "docs/react.md",
+      "extension": "md",
+      "size": 1711,
+      "prettySize": "1.71 kB",
+      "modifiedTime": "2018-08-17T13:05:09.000Z",
+      "accessTime": "2018-09-09T13:31:42.723Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "react.md",
+      "ext": ".md",
+      "name": "react",
+      "relativeDirectory": "docs",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179252,
+      "blocks": 8,
+      "atimeMs": 1536499902723.2205,
+      "mtimeMs": 1534511109000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:31:42.723Z",
+      "mtime": "2018-08-17T13:05:09.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/sections.json absPath of file": {
+      "id": "/app/my-react-app/content/docs/sections.json absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5d164b17ee2598e18976f74233049e14",
+        "mediaType": "application/json",
+        "type": "File",
+        "description": "File \"../content/docs/sections.json\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/sections.json",
+      "relativePath": "docs/sections.json",
+      "extension": "json",
+      "size": 50,
+      "prettySize": "50 B",
+      "modifiedTime": "2018-07-21T11:30:31.000Z",
+      "accessTime": "2018-09-09T13:39:37.493Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs",
+      "base": "sections.json",
+      "ext": ".json",
+      "name": "sections",
+      "relativeDirectory": "docs",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179254,
+      "blocks": 8,
+      "atimeMs": 1536500377493.2615,
+      "mtimeMs": 1532172631000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:39:37.493Z",
+      "mtime": "2018-07-21T11:30:31.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/images/hygen.png absPath of file": {
+      "id": "/app/my-react-app/content/docs/images/hygen.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "df6a4e0b97081f1a67d06efba160d3ae",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"../content/docs/images/hygen.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/app/my-react-app/content/docs/images/hygen.png",
+      "relativePath": "docs/images/hygen.png",
+      "extension": "png",
+      "size": 23861,
+      "prettySize": "23.9 kB",
+      "modifiedTime": "2018-07-21T11:30:31.000Z",
+      "accessTime": "2018-09-09T13:31:42.723Z",
+      "changeTime": "2018-09-09T13:31:42.723Z",
+      "birthTime": "2018-09-09T13:31:42.723Z",
+      "root": "/",
+      "dir": "/app/my-react-app/content/docs/images",
+      "base": "hygen.png",
+      "ext": ".png",
+      "name": "hygen",
+      "relativeDirectory": "docs/images",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 179258,
+      "blocks": 48,
+      "atimeMs": 1536499902723.2205,
+      "mtimeMs": 1532172631000,
+      "ctimeMs": 1536499902723.2205,
+      "birthtimeMs": 1536499902723.2205,
+      "atime": "2018-09-09T13:31:42.723Z",
+      "mtime": "2018-07-21T11:30:31.000Z",
+      "ctime": "2018-09-09T13:31:42.723Z",
+      "birthtime": "2018-09-09T13:31:42.723Z"
+    },
+    "/app/my-react-app/content/docs/configuration.md absPath of file >>> MarkdownRemark": {
+      "id": "/app/my-react-app/content/docs/configuration.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/app/my-react-app/content/docs/configuration.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Configuration\ndoc: 2\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling places your website configuration in `site-config.js`. This is where you personalize all aspects of the Dazzling website, without taking advantage of building new features in React (we'll get to that!).\n\nIn other words, if you want something quick, you can edit `site-config.js` and be done with it.\n\nHere it is, with some extra content abbreviated:\n\n```js\nconst createConfig = require('dazzling-components/lib/create-config')\nconst github = 'https://github.com/jondot/dazzling'\n\nmodule.exports = createConfig({\n  name: 'Dazzling',\n  pitch: 'An open source all-in-one project website generator based on Gatsby.',\n  github,\n  logo: 'logo.svg',\n  siteUrl: 'http://www.dazzling.io',\n  googleAnalyticsID: 'UA-FIX-ME-XXXXX', // GA tracking ID.\n\n  docsDir: `${__dirname}/../content`,\n  sections: require('../content/docs/sections.json').sections,\n  googleFonts: ['Open Sans:400,700', 'Muli:300,900'],\n\n  // algolia full text search\n  docSearch: {\n    apiKey: 'xxxxxx',\n    indexName: 'fixme',\n    inputSelector: '#algolia-doc-search',\n    debug: false // Set debug to true if you want to inspect the dropdown\n  },\n\n  nav: [\n    {\n      name: 'Docs',\n      to: 'getting-started',\n      primary: 'Get Started'\n    },\n  ],\n  usedInText: 'Powered by Dazzling',\n  usedIn: [\n    {\n      topTitle: true,\n      image: 'hygen.svg',\n      width: 100,\n      title: 'Hygen',\n      link: 'https://www.hygen.io'\n    },\n  ],\n  featuresText: 'Build Dazzling Sites',\n  features: [\n    {\n      image: 'simple.svg',\n      title: 'Unlimited Creativity.',\n      content:\n        'Build with Dazzling components or make new ones with React and Styled Components.'\n    },\n  ],\n  copyright: 'Copyright © 2018. Dotan Nahum',\n  theme: {\n    // named colors:\n    titleFontFamily: 'Muli',\n    background: '#fff',\n    brand: '#408AFA',\n    brandSecondary: '#8b8f94',\n    ink: '#333',\n    inkDark: '#35495E',\n    inkLight: '#f9fbfd',\n    inkSelected: '#2097e4',\n    // content width:\n    contentWidthLaptop: '680px',\n    sitePadding: '20px'\n  }\n})\n```\n\nWe recommend experimenting with these settings and if any doubt, take a look [at the source](https://github.com/jondot/dazzling/blob/master/packages/dazzling-components/src/create-config.js)\n\nIf you want to set up documentation for your site (it's on by default) check out [Docs](docs).",
+        "type": "MarkdownRemark",
+        "contentDigest": "82276fe0d0684e3ceec1723a924d5bc1",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Configuration",
+        "doc": 2,
+        "section": 1,
+        "category": "tech",
+        "type": "doc",
+        "_PARENT": "/app/my-react-app/content/docs/configuration.md absPath of file",
+        "parent": "/app/my-react-app/content/docs/configuration.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDazzling places your website configuration in `site-config.js`. This is where you personalize all aspects of the Dazzling website, without taking advantage of building new features in React (we'll get to that!).\n\nIn other words, if you want something quick, you can edit `site-config.js` and be done with it.\n\nHere it is, with some extra content abbreviated:\n\n```js\nconst createConfig = require('dazzling-components/lib/create-config')\nconst github = 'https://github.com/jondot/dazzling'\n\nmodule.exports = createConfig({\n  name: 'Dazzling',\n  pitch: 'An open source all-in-one project website generator based on Gatsby.',\n  github,\n  logo: 'logo.svg',\n  siteUrl: 'http://www.dazzling.io',\n  googleAnalyticsID: 'UA-FIX-ME-XXXXX', // GA tracking ID.\n\n  docsDir: `${__dirname}/../content`,\n  sections: require('../content/docs/sections.json').sections,\n  googleFonts: ['Open Sans:400,700', 'Muli:300,900'],\n\n  // algolia full text search\n  docSearch: {\n    apiKey: 'xxxxxx',\n    indexName: 'fixme',\n    inputSelector: '#algolia-doc-search',\n    debug: false // Set debug to true if you want to inspect the dropdown\n  },\n\n  nav: [\n    {\n      name: 'Docs',\n      to: 'getting-started',\n      primary: 'Get Started'\n    },\n  ],\n  usedInText: 'Powered by Dazzling',\n  usedIn: [\n    {\n      topTitle: true,\n      image: 'hygen.svg',\n      width: 100,\n      title: 'Hygen',\n      link: 'https://www.hygen.io'\n    },\n  ],\n  featuresText: 'Build Dazzling Sites',\n  features: [\n    {\n      image: 'simple.svg',\n      title: 'Unlimited Creativity.',\n      content:\n        'Build with Dazzling components or make new ones with React and Styled Components.'\n    },\n  ],\n  copyright: 'Copyright © 2018. Dotan Nahum',\n  theme: {\n    // named colors:\n    titleFontFamily: 'Muli',\n    background: '#fff',\n    brand: '#408AFA',\n    brandSecondary: '#8b8f94',\n    ink: '#333',\n    inkDark: '#35495E',\n    inkLight: '#f9fbfd',\n    inkSelected: '#2097e4',\n    // content width:\n    contentWidthLaptop: '680px',\n    sitePadding: '20px'\n  }\n})\n```\n\nWe recommend experimenting with these settings and if any doubt, take a look [at the source](https://github.com/jondot/dazzling/blob/master/packages/dazzling-components/src/create-config.js)\n\nIf you want to set up documentation for your site (it's on by default) check out [Docs](docs).",
+      "fileAbsolutePath": "/app/my-react-app/content/docs/configuration.md",
+      "fields": {
+        "slug": "/configuration"
+      }
+    },
+    "/app/my-react-app/content/docs/docs.md absPath of file >>> MarkdownRemark": {
+      "id": "/app/my-react-app/content/docs/docs.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/app/my-react-app/content/docs/docs.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Docs\ndoc: 4\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling has a seamless Docs feature (will be generated by default) so that can keep your docs in your project's root while having it pulled, formatted, and generated as a clean documentation website for your users.\n\n\n## Editing Content\n\nHere's how Dazzling treats your project layout:\n\n```\nmy-project/\n  src/      <--- your code\n  content/\n    docs/   <--- Markdown content\n  www/      <--- Dazzling\n```\n\nHere's a sample document, in markdown (you get default docs to play with):\n\n```markdown\n---\ntitle: Configuration\ndoc: 2\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling places your website configuration in `site-config.js`. This is where you personalize all asprects of the Dazzling website, without taking advantage of building new features in React (we'll get to that!).\n```\n\n`title` is both a title and a slug, so that if you choose \"Getting Started\" it will be converted to a `getting-started` slug that you can use to hotlink other documentation areas.\n\n`section` and `doc` are numeric index values for the number of section and the document in the hirarchy of sections and documents, all starting from the index `1` (*not* zero based).\n\nAs you'll see the menu will be generated automatically based on how you decide to order your docs and sections.\n\nThe `category` and `type` fields are reserved for later use.\n\n## Naming Sections\n\nEdit `content/docs/sections.json` to name your various sections.\n\n## Search\n\nIf you want full-text search, you got it. [Algolia](https://www.algolia.com/) offers a free acount to open source projects, and Dazzling supports only that provider (pull requests for more providers are welcome!).\n\nAfter you create a new account it's just a matter of plugging the Algolia configuration into your `site-config.js`:\n\n\n```js\ndocSearch: {\n    apiKey: 'xxxxxx',\n    indexName: 'fixme',\n    inputSelector: '#algolia-doc-search',\n    debug: false // Set debug to true if you want to inspect the dropdown\n},\n```",
+        "type": "MarkdownRemark",
+        "contentDigest": "973220536a4543cceca485a05f113830",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Docs",
+        "doc": 4,
+        "section": 1,
+        "category": "tech",
+        "type": "doc",
+        "_PARENT": "/app/my-react-app/content/docs/docs.md absPath of file",
+        "parent": "/app/my-react-app/content/docs/docs.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDazzling has a seamless Docs feature (will be generated by default) so that can keep your docs in your project's root while having it pulled, formatted, and generated as a clean documentation website for your users.\n\n\n## Editing Content\n\nHere's how Dazzling treats your project layout:\n\n```\nmy-project/\n  src/      <--- your code\n  content/\n    docs/   <--- Markdown content\n  www/      <--- Dazzling\n```\n\nHere's a sample document, in markdown (you get default docs to play with):\n\n```markdown\n---\ntitle: Configuration\ndoc: 2\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling places your website configuration in `site-config.js`. This is where you personalize all asprects of the Dazzling website, without taking advantage of building new features in React (we'll get to that!).\n```\n\n`title` is both a title and a slug, so that if you choose \"Getting Started\" it will be converted to a `getting-started` slug that you can use to hotlink other documentation areas.\n\n`section` and `doc` are numeric index values for the number of section and the document in the hirarchy of sections and documents, all starting from the index `1` (*not* zero based).\n\nAs you'll see the menu will be generated automatically based on how you decide to order your docs and sections.\n\nThe `category` and `type` fields are reserved for later use.\n\n## Naming Sections\n\nEdit `content/docs/sections.json` to name your various sections.\n\n## Search\n\nIf you want full-text search, you got it. [Algolia](https://www.algolia.com/) offers a free acount to open source projects, and Dazzling supports only that provider (pull requests for more providers are welcome!).\n\nAfter you create a new account it's just a matter of plugging the Algolia configuration into your `site-config.js`:\n\n\n```js\ndocSearch: {\n    apiKey: 'xxxxxx',\n    indexName: 'fixme',\n    inputSelector: '#algolia-doc-search',\n    debug: false // Set debug to true if you want to inspect the dropdown\n},\n```",
+      "fileAbsolutePath": "/app/my-react-app/content/docs/docs.md",
+      "fields": {
+        "slug": "/docs"
+      }
+    },
+    "/app/my-react-app/content/docs/introduction.md absPath of file >>> MarkdownRemark": {
+      "id": "/app/my-react-app/content/docs/introduction.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/app/my-react-app/content/docs/introduction.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Getting Started\ndoc: 1\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling is the quickest and most flexible way to build websites for your projects. It requires minimal set up and preparations, and is backed by a powerful [generator framework](http://www.hygen.io). \n\nLet's see what it takes to build your new website.\n\nYou can use Dazzling in a new or existing project; as long as you have a target folder with a `package.json` in it, your all set.\n\n```\n$ yarn add -D dazzling\n$ yarn dazzling site new\n```\n\nAfter running the `dazzling site` command it will prompt you with quick questions. You can keep the defaults or input your own answers - you can always edit later.\n\n```\n$ dazzling site new\n? What's your project name? Bamboo\n? Project tagline? The scalable wood that bends and holds strong.\n? Github repo? https://github.com/fixme/fixme\n? Website? https://fixme.io\n? Google Analytics ID? UA-FIX-ME-XXXXX\n? Your name? (for copyright) Chuck Woody\n\nLoaded templates: dazzling/_templates\n       shell: cd 'dazzling/_templates/site/new/contents' && tar cf - --exclude=node_modules . | (cd daz-test && tar xvf - )\n       added: daz-test/www/static/CNAME\n       added: daz-test/www/site-config.js\n```\n\nYou're now ready to `cd www` and `yarn install`:\n\n```\n$ cd www\n$ yarn install\n$ yarn start\n```\n\nIn a moment you'll have a new website ready, including documentation, with [Gatsby](https://github.com/gatsbyjs/gatsby) as the backing engine.\n\nNext, let's see how to [configure your website](configuration).\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c7269f00c5c38a509dd15cdabcc684d3",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Getting Started",
+        "doc": 1,
+        "section": 1,
+        "category": "tech",
+        "type": "doc",
+        "_PARENT": "/app/my-react-app/content/docs/introduction.md absPath of file",
+        "parent": "/app/my-react-app/content/docs/introduction.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDazzling is the quickest and most flexible way to build websites for your projects. It requires minimal set up and preparations, and is backed by a powerful [generator framework](http://www.hygen.io). \n\nLet's see what it takes to build your new website.\n\nYou can use Dazzling in a new or existing project; as long as you have a target folder with a `package.json` in it, your all set.\n\n```\n$ yarn add -D dazzling\n$ yarn dazzling site new\n```\n\nAfter running the `dazzling site` command it will prompt you with quick questions. You can keep the defaults or input your own answers - you can always edit later.\n\n```\n$ dazzling site new\n? What's your project name? Bamboo\n? Project tagline? The scalable wood that bends and holds strong.\n? Github repo? https://github.com/fixme/fixme\n? Website? https://fixme.io\n? Google Analytics ID? UA-FIX-ME-XXXXX\n? Your name? (for copyright) Chuck Woody\n\nLoaded templates: dazzling/_templates\n       shell: cd 'dazzling/_templates/site/new/contents' && tar cf - --exclude=node_modules . | (cd daz-test && tar xvf - )\n       added: daz-test/www/static/CNAME\n       added: daz-test/www/site-config.js\n```\n\nYou're now ready to `cd www` and `yarn install`:\n\n```\n$ cd www\n$ yarn install\n$ yarn start\n```\n\nIn a moment you'll have a new website ready, including documentation, with [Gatsby](https://github.com/gatsbyjs/gatsby) as the backing engine.\n\nNext, let's see how to [configure your website](configuration).\n\n",
+      "fileAbsolutePath": "/app/my-react-app/content/docs/introduction.md",
+      "fields": {
+        "slug": "/getting-started"
+      }
+    },
+    "/app/my-react-app/content/docs/react.md absPath of file >>> MarkdownRemark": {
+      "id": "/app/my-react-app/content/docs/react.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/app/my-react-app/content/docs/react.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: React\ndoc: 3\nsection: 1\ncategory: \"tech\"\ntype: \"doc\"\n---\n\nDazzling is backed by [Gatsby](https://github.com/gatsbyjs/gatsby), an amazing framework that lets you generates static content (websites, but really - anything) while keeping the development experience tied to React, GraphQL, and many more first-class frontend tools.\n\nGatsby lets you have your cake and eat it too; and Dazzling puts the whole thing on steriods.\n\n\nAfter [generating](getting-started) your first Dazzling website, you'll see this layout (which is standard Gatsby layout):\n\n```\nsrc\n├── assets\n├── css\n│   └── index.scss\n├── html.jsx\n├── layouts\n│   └── index.jsx\n├── pages\n│   └── index.jsx\n└── templates\n    └── doc.jsx\n```\n\nAnd if we take a look at `pages/index.jsx`, we see this:\n\n```jsx\n// various imports\nexport default class Index extends Component {\n  render() {\n    return (\n      <LandingPage config={config} {...this.props}>\n        <Shell dark style={{ margin: '8rem 0 5rem 0' }}>\n          <Shell.Cmd>$ yarn add foo-bar</Shell.Cmd>\n          <Shell.Success>foo-bar installed!</Shell.Success>\n        </Shell>\n      </LandingPage>\n    )\n  }\n}\n```\n\nIf you noticed - both the folder structure and the actual pages are super compact. This is where Dazzling tucks everything under its standard framework and opinions.\n\n\nEverything is standard React and standard Gatsby - feel free to edit, tweak and use the parts you like from Dazzling and ignore the parts you dislike.\n\nYou can look at the components Dazzling has [by going to the components package](https://github.com/jondot/dazzling/tree/master/packages/dazzling-components/src/components).\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c5f965bb57f484d9d35c368fe01c27f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "React",
+        "doc": 3,
+        "section": 1,
+        "category": "tech",
+        "type": "doc",
+        "_PARENT": "/app/my-react-app/content/docs/react.md absPath of file",
+        "parent": "/app/my-react-app/content/docs/react.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDazzling is backed by [Gatsby](https://github.com/gatsbyjs/gatsby), an amazing framework that lets you generates static content (websites, but really - anything) while keeping the development experience tied to React, GraphQL, and many more first-class frontend tools.\n\nGatsby lets you have your cake and eat it too; and Dazzling puts the whole thing on steriods.\n\n\nAfter [generating](getting-started) your first Dazzling website, you'll see this layout (which is standard Gatsby layout):\n\n```\nsrc\n├── assets\n├── css\n│   └── index.scss\n├── html.jsx\n├── layouts\n│   └── index.jsx\n├── pages\n│   └── index.jsx\n└── templates\n    └── doc.jsx\n```\n\nAnd if we take a look at `pages/index.jsx`, we see this:\n\n```jsx\n// various imports\nexport default class Index extends Component {\n  render() {\n    return (\n      <LandingPage config={config} {...this.props}>\n        <Shell dark style={{ margin: '8rem 0 5rem 0' }}>\n          <Shell.Cmd>$ yarn add foo-bar</Shell.Cmd>\n          <Shell.Success>foo-bar installed!</Shell.Success>\n        </Shell>\n      </LandingPage>\n    )\n  }\n}\n```\n\nIf you noticed - both the folder structure and the actual pages are super compact. This is where Dazzling tucks everything under its standard framework and opinions.\n\n\nEverything is standard React and standard Gatsby - feel free to edit, tweak and use the parts you like from Dazzling and ignore the parts you dislike.\n\nYou can look at the components Dazzling has [by going to the components package](https://github.com/jondot/dazzling/tree/master/packages/dazzling-components/src/components).\n\n",
+      "fileAbsolutePath": "/app/my-react-app/content/docs/react.md",
+      "fields": {
+        "slug": "/react"
+      }
+    },
+    "SitePage /configuration": {
+      "layout": "index",
+      "jsonName": "configuration.json",
+      "internalComponentName": "ComponentConfiguration",
+      "path": "/configuration",
+      "component": "/app/my-react-app/www/src/templates/doc.jsx",
+      "componentChunkName": "component---src-templates-doc-jsx",
+      "context": {
+        "slug": "/configuration"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/app/my-react-app/www/src/templates/doc.jsx",
+      "id": "SitePage /configuration",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d8fe57b4808c7b3d08acc81fb12a6a84",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /docs": {
+      "layout": "index",
+      "jsonName": "docs.json",
+      "internalComponentName": "ComponentDocs",
+      "path": "/docs",
+      "component": "/app/my-react-app/www/src/templates/doc.jsx",
+      "componentChunkName": "component---src-templates-doc-jsx",
+      "context": {
+        "slug": "/docs"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/app/my-react-app/www/src/templates/doc.jsx",
+      "id": "SitePage /docs",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6bd0a0da1ce946df7c905d9455ea5712",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /getting-started": {
+      "layout": "index",
+      "jsonName": "getting-started.json",
+      "internalComponentName": "ComponentGettingStarted",
+      "path": "/getting-started",
+      "component": "/app/my-react-app/www/src/templates/doc.jsx",
+      "componentChunkName": "component---src-templates-doc-jsx",
+      "context": {
+        "slug": "/getting-started"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/app/my-react-app/www/src/templates/doc.jsx",
+      "id": "SitePage /getting-started",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5fe50f7835ade7806baa94592d14efed",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /react": {
+      "layout": "index",
+      "jsonName": "react.json",
+      "internalComponentName": "ComponentReact",
+      "path": "/react",
+      "component": "/app/my-react-app/www/src/templates/doc.jsx",
+      "componentChunkName": "component---src-templates-doc-jsx",
+      "context": {
+        "slug": "/react"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/app/my-react-app/www/src/templates/doc.jsx",
+      "id": "SitePage /react",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "baa4cd41bb17ee585474a058ecc38f74",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/app/my-react-app/www/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/app/my-react-app/www/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b0d741b5c18d4a92c50924b8331c8d5c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b561344d421b6312dc92c0a89344ee31"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/app/my-react-app/content/docs/configuration.md absPath of file >>> MarkdownRemark": [
+        "/configuration"
+      ],
+      "/app/my-react-app/content/docs/docs.md absPath of file >>> MarkdownRemark": [
+        "/docs"
+      ],
+      "/app/my-react-app/content/docs/introduction.md absPath of file >>> MarkdownRemark": [
+        "/getting-started"
+      ],
+      "/app/my-react-app/content/docs/react.md absPath of file >>> MarkdownRemark": [
+        "/react"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/configuration",
+        "/docs",
+        "/getting-started",
+        "/react"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
