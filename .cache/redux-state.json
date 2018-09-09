@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/app/my-react-app/www/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/app/my-react-app/www/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a48f9fa2d6004a616d76165b3c17b1f",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -504,7 +494,7 @@
               "backgroundColor": "white",
               "linkImagesToOriginal": true,
               "showCaptions": false,
-              "pathPrefix": ""
+              "pathPrefix": "/generated-dazzling"
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -734,7 +724,7 @@
         "backgroundColor": "white",
         "linkImagesToOriginal": true,
         "showCaptions": false,
-        "pathPrefix": ""
+        "pathPrefix": "/generated-dazzling"
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -1545,7 +1535,7 @@
         "name": "dazzling",
         "short_name": "dazzling",
         "description": "dazzling - The scalable wood that bends and holds strong.",
-        "start_url": "/",
+        "start_url": "generated-dazzling",
         "background_color": "#fff",
         "theme_color": "#F722B1",
         "display": "minimal-ui",
@@ -1622,7 +1612,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7912343500b3277ed58f01dfdf6e8402",
+        "contentDigest": "338eb175b7b01f338c8e5f5ed7d9019f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2032,18 +2022,16 @@
     },
     "Site": {
       "siteMetadata": {
-        "siteUrl": "bq1028.github.io/generated-dazzling"
+        "siteUrl": "bq1028.github.iogenerated-dazzling"
       },
-      "port": "4002",
-      "host": "0.0.0.0",
-      "pathPrefix": "",
+      "pathPrefix": "/generated-dazzling",
       "polyfill": true,
-      "buildTime": "2018-09-09T13:39:36.300Z",
+      "buildTime": "2018-09-09T14:05:52.271Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d40fce128533d796c87cfbac24294c8e",
+        "contentDigest": "74d364cfad548e618b4583b6a7e59448",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2200,7 +2188,7 @@
       "size": 2390,
       "prettySize": "2.39 kB",
       "modifiedTime": "2018-08-17T13:04:15.000Z",
-      "accessTime": "2018-09-09T13:31:42.723Z",
+      "accessTime": "2018-09-09T13:39:38.323Z",
       "changeTime": "2018-09-09T13:31:42.723Z",
       "birthTime": "2018-09-09T13:31:42.723Z",
       "root": "/",
@@ -2218,11 +2206,11 @@
       "blksize": 4096,
       "ino": 179256,
       "blocks": 8,
-      "atimeMs": 1536499902723.2205,
+      "atimeMs": 1536500378323.2979,
       "mtimeMs": 1534511055000,
       "ctimeMs": 1536499902723.2205,
       "birthtimeMs": 1536499902723.2205,
-      "atime": "2018-09-09T13:31:42.723Z",
+      "atime": "2018-09-09T13:39:38.323Z",
       "mtime": "2018-08-17T13:04:15.000Z",
       "ctime": "2018-09-09T13:31:42.723Z",
       "birthtime": "2018-09-09T13:31:42.723Z"
@@ -2247,7 +2235,7 @@
       "size": 2014,
       "prettySize": "2.01 kB",
       "modifiedTime": "2018-07-21T11:30:31.000Z",
-      "accessTime": "2018-09-09T13:31:42.723Z",
+      "accessTime": "2018-09-09T13:39:38.323Z",
       "changeTime": "2018-09-09T13:31:42.723Z",
       "birthTime": "2018-09-09T13:31:42.723Z",
       "root": "/",
@@ -2265,11 +2253,11 @@
       "blksize": 4096,
       "ino": 179255,
       "blocks": 8,
-      "atimeMs": 1536499902723.2205,
+      "atimeMs": 1536500378323.2979,
       "mtimeMs": 1532172631000,
       "ctimeMs": 1536499902723.2205,
       "birthtimeMs": 1536499902723.2205,
-      "atime": "2018-09-09T13:31:42.723Z",
+      "atime": "2018-09-09T13:39:38.323Z",
       "mtime": "2018-07-21T11:30:31.000Z",
       "ctime": "2018-09-09T13:31:42.723Z",
       "birthtime": "2018-09-09T13:31:42.723Z"
@@ -2294,7 +2282,7 @@
       "size": 1521,
       "prettySize": "1.52 kB",
       "modifiedTime": "2018-07-21T11:30:31.000Z",
-      "accessTime": "2018-09-09T13:31:42.723Z",
+      "accessTime": "2018-09-09T13:39:38.323Z",
       "changeTime": "2018-09-09T13:31:42.723Z",
       "birthTime": "2018-09-09T13:31:42.723Z",
       "root": "/",
@@ -2312,11 +2300,11 @@
       "blksize": 4096,
       "ino": 179253,
       "blocks": 8,
-      "atimeMs": 1536499902723.2205,
+      "atimeMs": 1536500378323.2979,
       "mtimeMs": 1532172631000,
       "ctimeMs": 1536499902723.2205,
       "birthtimeMs": 1536499902723.2205,
-      "atime": "2018-09-09T13:31:42.723Z",
+      "atime": "2018-09-09T13:39:38.323Z",
       "mtime": "2018-07-21T11:30:31.000Z",
       "ctime": "2018-09-09T13:31:42.723Z",
       "birthtime": "2018-09-09T13:31:42.723Z"
@@ -2341,7 +2329,7 @@
       "size": 1711,
       "prettySize": "1.71 kB",
       "modifiedTime": "2018-08-17T13:05:09.000Z",
-      "accessTime": "2018-09-09T13:31:42.723Z",
+      "accessTime": "2018-09-09T13:39:38.323Z",
       "changeTime": "2018-09-09T13:31:42.723Z",
       "birthTime": "2018-09-09T13:31:42.723Z",
       "root": "/",
@@ -2359,11 +2347,11 @@
       "blksize": 4096,
       "ino": 179252,
       "blocks": 8,
-      "atimeMs": 1536499902723.2205,
+      "atimeMs": 1536500378323.2979,
       "mtimeMs": 1534511109000,
       "ctimeMs": 1536499902723.2205,
       "birthtimeMs": 1536499902723.2205,
-      "atime": "2018-09-09T13:31:42.723Z",
+      "atime": "2018-09-09T13:39:38.323Z",
       "mtime": "2018-08-17T13:05:09.000Z",
       "ctime": "2018-09-09T13:31:42.723Z",
       "birthtime": "2018-09-09T13:31:42.723Z"
@@ -2431,7 +2419,7 @@
       "size": 23861,
       "prettySize": "23.9 kB",
       "modifiedTime": "2018-07-21T11:30:31.000Z",
-      "accessTime": "2018-09-09T13:31:42.723Z",
+      "accessTime": "2018-09-09T13:39:38.323Z",
       "changeTime": "2018-09-09T13:31:42.723Z",
       "birthTime": "2018-09-09T13:31:42.723Z",
       "root": "/",
@@ -2449,11 +2437,11 @@
       "blksize": 4096,
       "ino": 179258,
       "blocks": 48,
-      "atimeMs": 1536499902723.2205,
+      "atimeMs": 1536500378323.2979,
       "mtimeMs": 1532172631000,
       "ctimeMs": 1536499902723.2205,
       "birthtimeMs": 1536499902723.2205,
-      "atime": "2018-09-09T13:31:42.723Z",
+      "atime": "2018-09-09T13:39:38.323Z",
       "mtime": "2018-07-21T11:30:31.000Z",
       "ctime": "2018-09-09T13:31:42.723Z",
       "birthtime": "2018-09-09T13:31:42.723Z"
@@ -2574,6 +2562,27 @@
         "slug": "/react"
       }
     },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/app/my-react-app/www/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/app/my-react-app/www/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dfa2fcd5452177714a09d54911215be0",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /configuration": {
       "layout": "index",
       "jsonName": "configuration.json",
@@ -2592,7 +2601,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d8fe57b4808c7b3d08acc81fb12a6a84",
+        "contentDigest": "9fcc13f3f55d144d019f91bcc77f6420",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2615,7 +2624,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6bd0a0da1ce946df7c905d9455ea5712",
+        "contentDigest": "78b5e6212080b6cb2f9bae0ee4018590",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2638,7 +2647,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5fe50f7835ade7806baa94592d14efed",
+        "contentDigest": "233fd29830322f814b0af1d2473a3bf5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2661,7 +2670,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "baa4cd41bb17ee585474a058ecc38f74",
+        "contentDigest": "c4dfca79a2155a00fb52b3b9dccd1267",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2682,7 +2691,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b0d741b5c18d4a92c50924b8331c8d5c",
+        "contentDigest": "1f2c818fc37307f1fcc4e4887842f68d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2690,7 +2699,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b561344d421b6312dc92c0a89344ee31"
+    "PLUGINS_HASH": "a8ced2446a74d9a7045ebd4b834907d7"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2713,9 +2722,6 @@
         "/docs",
         "/getting-started",
         "/react"
-      ],
-      "SitePage": [
-        "/dev-404-page/"
       ]
     }
   }

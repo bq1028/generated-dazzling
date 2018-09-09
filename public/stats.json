@@ -1,0 +1,58 @@
+{
+  "assetsByChunkName": {
+    "path---react": [
+      "path---react-ba65f20ac45a49deee0e.js",
+      "path---react-ba65f20ac45a49deee0e.js.map"
+    ],
+    "component---src-templates-doc-jsx": [
+      "component---src-templates-doc-jsx-cf994b386f20f2c1a0ac.js",
+      "component---src-templates-doc-jsx-cf994b386f20f2c1a0ac.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---configuration": [
+      "path---configuration-a1f4413a1c839aa16978.js",
+      "path---configuration-a1f4413a1c839aa16978.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-41fdf656ea49167bd6de.js",
+      "component---src-layouts-index-jsx-41fdf656ea49167bd6de.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---getting-started": [
+      "path---getting-started-626cc354a23a535f4cb5.js",
+      "path---getting-started-626cc354a23a535f4cb5.js.map"
+    ],
+    "path---docs": [
+      "path---docs-9859db44243adca72888.js",
+      "path---docs-9859db44243adca72888.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-0beeb371a4ce5baef2ee.js",
+      "commons-0beeb371a4ce5baef2ee.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-e3ed340be79311b1d534.js",
+      "component---src-pages-index-jsx-e3ed340be79311b1d534.js.map"
+    ],
+    "app": [
+      "app-1c2dddc0b9c4143a5d0c.js",
+      "build-js-styles.css",
+      "app-1c2dddc0b9c4143a5d0c.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}

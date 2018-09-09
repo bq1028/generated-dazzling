@@ -18,7 +18,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/app/my-react-app/www/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"dazzling","short_name":"dazzling","description":"dazzling - The scalable wood that bends and holds strong.","start_url":"/","background_color":"#fff","theme_color":"#F722B1","display":"minimal-ui","icons":[{"src":"/logo-192.png","sizes":"192x192","type":"image/png"},{"src":"/logo-512.png","sizes":"512x512","type":"image/png"}]},
+      options: {"plugins":[],"name":"dazzling","short_name":"dazzling","description":"dazzling - The scalable wood that bends and holds strong.","start_url":"generated-dazzling","background_color":"#fff","theme_color":"#F722B1","display":"minimal-ui","icons":[{"src":"/logo-192.png","sizes":"192x192","type":"image/png"},{"src":"/logo-512.png","sizes":"512x512","type":"image/png"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

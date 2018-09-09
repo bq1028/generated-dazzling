@@ -2,11 +2,12 @@ const createConfig = require('dazzling-components/lib/create-config')
 const github = 'https://github.com/bq1028/generated-dazzling.git'
 
 module.exports = createConfig({
+  pathPrefix: 'generated-dazzling',
   name: 'dazzling',
   pitch: 'The scalable wood that bends and holds strong.',
   github,
   logo: 'logo.svg',
-  siteUrl: 'bq1028.github.io/generated-dazzling',
+  siteUrl: 'bq1028.github.io',
   googleAnalyticsID: 'UA-FIX-ME-XXXXX', // GA tracking ID.
 
   docsDir: `${__dirname}/../content`,
