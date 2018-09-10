@@ -2492,8 +2492,8 @@ dateformat@^2.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-2.2.0.tgz#4065e2013cf9fb916ddfd82efb506ad4c6769062"
 
 dazzling-components@^1.0.20:
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/dazzling-components/-/dazzling-components-1.0.14.tgz#b713ce81a947b86718f9db876e0ed9667d181604"
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/dazzling-components/-/dazzling-components-1.0.18.tgz#1a77c653266b3145432e7fcc928dc7591d375259"
   dependencies:
     gatsby-link "^1.6.45"
     lodash "^4.17.4"
